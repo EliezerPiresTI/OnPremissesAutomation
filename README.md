@@ -1,12 +1,20 @@
-Os arquivos scriptSW.py, scriptSW_IPVlan.py e o script_STP.py foram minhas primeiras experiências depois que descobri DevNet.
-  Percebi que poderia usar o Python para automatizar muitas coisas do meu trabalho e me apaixonei.
-  Nesses scripts foquei em configurações de Ativos Ciscos, nesses configurei todo o Spanningtree com suas prioridades nas Vlans que forem necessárias.
-  Ainda tenho ideias para melhorar esses scripts, aguardando um tempo maior nas demandas para poder melhorar.
+# Scripts de Automação de Redes
 
-Após um tempo de estudo procurei evoluir e construir o arquivo gvulssh.py
-  Neste arquivo tenho o código para fazer uma configuração específica no sshd.config de servidores linux.
-  Para me ajudar criei os arquivos grimorio, svrs.json.
-    Onde tenho a lista de comandos que serão executados em cada servidor.
-    E no arquivo svrs.json tenho a lista dos Servidores que quero acessar.
+Bem-vindo à minha coleção de **scripts de automação de redes**. Esses scripts representam minha jornada no mundo do **DevNet**, onde descobri o poder do **Python** para automatizar tarefas no meu dia a dia. Abaixo está uma breve visão geral de cada script e seu propósito.
 
-Sigo firme nos estudos em busca de evoluir.
+## Visão Geral dos Scripts
+
+### 1. **`scriptSW.py`, `scriptSW_IPVlan.py`, `script_STP.py`**
+Esses scripts foram meus primeiros passos na automação de redes. Eles se concentram na configuração de dispositivos **Cisco**, especificamente na gestão do **Spanning Tree Protocol (STP)** em várias VLANs. Os scripts automatizam a configuração do STP, ajustando as prioridades das VLANs conforme necessário. Embora esses scripts ainda possam ser aprimorados, eles refletem meu entusiasmo inicial e paixão por utilizar Python em configurações de rede.
+
+### 2. **`gvulssh.py`**
+Conforme avancei em meus estudos, criei este script para configurar o arquivo `sshd_config` em servidores **Linux**. Este script permite realizar configurações específicas de **SSH** em vários servidores. Para facilitar o processo, também desenvolvi:
+
+- **`grimorio`**: Contém a lista de comandos que serão executados em cada servidor.
+- **`svrs.json`**: Contém a lista de servidores que desejo acessar.
+
+## Planos Futuros
+Estou constantemente aprendendo e buscando maneiras de aprimorar esses scripts. Meu objetivo é torná-los mais eficientes e versáteis à medida que ganho mais experiência e conhecimento.
+
+Fique de olho nas atualizações e sinta-se à vontade para contribuir ou fornecer feedback!
+
